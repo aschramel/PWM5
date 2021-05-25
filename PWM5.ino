@@ -56,7 +56,7 @@ float vcc = 3.3; // Init value only. Will be read automatically later on. Base f
 float pwm; // float required for finer granularity during calculation in differential equations!
 
 // Configuration variables (you may have to change them)
-float targetOutputVoltage = 13.8; // Our maximum battery charge voltage
+float targetOutputVoltage = 13.5; // Our maximum battery charge voltage
 float voltageCalibration = 94.7; // (100k + 10k) / 10k = 11  ->  1024 / 11 = 93.09 in theory
 
 //
